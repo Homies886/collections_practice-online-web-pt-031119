@@ -41,7 +41,7 @@ def add_s(strings)
       element
     else
       element = element + 's'
-      elements
+      element
     end
   end
 end  
