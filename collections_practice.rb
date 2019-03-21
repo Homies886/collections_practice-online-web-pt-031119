@@ -20,6 +20,8 @@ end
 
 def kesha_maker(strings)
   strings_new = []
-  strings.each do |change|
-    
+  strings_new << strings.each do |change|
+    change[3]= "$"
+  end
+end
     
