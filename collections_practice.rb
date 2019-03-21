@@ -18,3 +18,8 @@ def reverse_array(int)
   int.reverse
 end
 
+def kesha_maker(strings)
+  strings_new = []
+  strings.each do |change|
+    
+    
