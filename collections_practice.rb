@@ -24,4 +24,6 @@ def kesha_maker(strings)
   end
   strings_new
 end
-    
+
+def find_a(strings)
+  strings.include
