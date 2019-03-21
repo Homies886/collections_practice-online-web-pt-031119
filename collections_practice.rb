@@ -37,4 +37,11 @@ end
 
 def add_s(strings)
   strings.each_with_index.collect do |element, i|
-    if element[i]
+    if strings[1] == element
+      element
+    else
+      element = element + 's'
+      elements
+    end
+  end
+end  
