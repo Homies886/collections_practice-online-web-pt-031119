@@ -35,4 +35,8 @@ def sum_array(num)
   num.sum
 end
 
-def add_s()
+def add_s(strings)
+  strings.each_with_index.reject{|string, i| i == 1} do |add, i|
+    add = add + "s"
+  end
+end
