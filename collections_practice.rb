@@ -19,10 +19,9 @@ def reverse_array(int)
 end
 
 def kesha_maker(strings)
-  strings_new = []
-  strings_new << strings.each do |change|
+  strings_new = strings.each do |change|
     change[2]= "$"
   end
-  strings_new.join(", ")
+  strings_new
 end
     
