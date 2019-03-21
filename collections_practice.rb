@@ -27,6 +27,6 @@ end
 
 def find_a(strings)
   strings.select do |a|
-    a[0]= "a"
+    a[0]== "a"
   end
 end
