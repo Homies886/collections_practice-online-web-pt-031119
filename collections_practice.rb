@@ -36,7 +36,7 @@ def sum_array(num)
 end
 
 def add_s(strings)
-  strings_with_s = strings.reject{|string| string == string[1]}.each do |add|
+  strings_with_s = strings.reject{|string| string == string[1]}.collect do |add|
     add + 's'
   end
   strings_with_s
