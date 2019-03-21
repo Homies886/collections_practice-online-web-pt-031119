@@ -36,4 +36,5 @@ def sum_array(num)
 end
 
 def add_s(strings)
-  strings.each
+  strings.each_with_index.collect do |element, i|
+    if element[i]
