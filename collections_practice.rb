@@ -35,4 +35,4 @@ def sum_array(num)
   num.sum
 end
 
-def add_s
+def add_s()
