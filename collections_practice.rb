@@ -26,4 +26,7 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.select 
+  strings.select do |a|
+    a[0]= "a"
+  end
+end
