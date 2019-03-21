@@ -37,7 +37,7 @@ end
 
 def add_s(strings)
   strings_with_s = strings.reject{|string| string == string[1]}.each do |add|
-    add = "#{add}s"
+    puts "#{add}s"
   end
   strings_with_s
 end
